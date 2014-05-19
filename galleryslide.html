@@ -19,7 +19,7 @@ body{
 <head>
 <style>
 #carousel {
-    width:      480px;
+    width:      500px;
     overflow:   hidden;
 
   }
@@ -31,7 +31,7 @@ body{
   }
 
   #carousel ul li {
-    width:480px;
+    width:500px;
     text-align:   center;
     height: 280px;
     list-style:   none;
@@ -45,7 +45,7 @@ body{
     $("#carousel ul").each(function(){
       // Set the interval to be 10 seconds
       var t = setInterval(function(){
-        $("#carousel ul").animate({marginLeft:-480},1000,function(){
+        $("#carousel ul").animate({marginLeft:-500},1000,function(){
           // This code runs after the animation completes
           $(this).find("li:last").after($(this).find("li:first"));
           // Now we've taken out the left-most list item, reset the margin
